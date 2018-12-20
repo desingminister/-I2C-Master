@@ -91,7 +91,7 @@ void main(void)
 
 		i2c_servo_command(1, 0);				// Set servo1 to position 0
 
-		// Wait until Servo 0 has reached start
+// Wait until Servo 0 has reached start
 		while(servo0_pos > 0)
 		{
 			__delay_ms(50);
